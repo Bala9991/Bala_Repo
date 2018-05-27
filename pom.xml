@@ -77,11 +77,12 @@
 				<configuration>
 					<suiteXmlFiles>
 						<suiteXmlFile>testng.xml</suiteXmlFile>
+						<suiteXmlFile>testng_paypal.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>Leaftaps</finalName>
+		<finalName>Bala_proj</finalName>
 	</build>
 </project>
 
