@@ -21,7 +21,7 @@ public class Hooks extends SeMethods {
 	}
 
 	@After
-	public void Aefore(Scenario sc) {
+	public void After(Scenario sc) {
 		System.out.println(sc.getStatus());
 		closeAllBrowsers();
 		endResult();
