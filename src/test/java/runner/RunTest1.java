@@ -6,8 +6,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features= {"src/test/java/features/CreateLeadWithExamples.feature"},glue= {"steps","pages"},monochrome=true)
-	
-	public class RunTest {
-	
+@CucumberOptions(features= {"src/test/java/features/DeleteLead.feature"},glue= {"steps","pages"},monochrome=true)
+public class RunTest1 {
+
 }
