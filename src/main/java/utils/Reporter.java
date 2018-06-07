@@ -76,8 +76,6 @@ public abstract class Reporter {
 	}
 
 
-
-
 	public void endResult() {
 		extent.flush();
 	}	

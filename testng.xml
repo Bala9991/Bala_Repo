@@ -3,8 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-    <!-- <class name="testcases.TC003_CreateLead"/> -->
-      <!-- <class name="testcases.TC004_EditLead"/> -->
+    <class name="testcases.TC003_CreateLead"/>
+      <class name="testcases.TC004_EditLead"/> 
      <!-- <class name="testcases.TC006_DeleteLead"/>-->
     </classes>
   </test> <!-- Test -->
