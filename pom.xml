@@ -77,7 +77,6 @@
 				<configuration>
 					<suiteXmlFiles>
 						<suiteXmlFile>testng.xml</suiteXmlFile>
-						<suiteXmlFile>testng_paypal.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
