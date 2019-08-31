@@ -2,13 +2,15 @@ package wdMethods;
 
 import java.net.MalformedURLException;
 
+
 import org.openqa.selenium.ElementNotVisibleException;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 
+
+
 public interface WdMethods {
 		
-	
 		/**
 		 * This method will launch the chrome browser and 
 		 * maximise the browser and set the wait for 30 seconds 

@@ -43,7 +43,7 @@ When verify the lead is deleted
 Examples:
 
 |userName|password|firstName|
-|DemoSalesManager|crmsfa|bala|
+|DemoSalesManager|crmsfa|123|
 
 
 

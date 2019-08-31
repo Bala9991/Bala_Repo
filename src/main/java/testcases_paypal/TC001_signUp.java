@@ -16,10 +16,10 @@ public class TC001_signUp extends ProjectMethods{
 		category="Smoke";
 		authors="Gopi";
 		browserName="chrome";
-		dataSheetName="TC0001_paypal";
+		dataSheetName="TC001";
 	}
 	
-	@Test(dataProvider="fetchData")
+	@Test(dataProvider="fetchData",groups= {"all"})
 	public void signUp(String country,String email,String password) {
 		
 		new Login_PayPal()
@@ -32,5 +32,4 @@ public class TC001_signUp extends ProjectMethods{
 		.clickContinue();
 	}
 	
-
 }

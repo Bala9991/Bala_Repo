@@ -1,6 +1,6 @@
 Feature: Create Lead
 
-@smoke
+
 Scenario: Create a Lead with mandatory field
 
 Given open the browser

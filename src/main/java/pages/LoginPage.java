@@ -1,15 +1,11 @@
 package pages;
 
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
-import com.aventstack.extentreports.ExtentTest;
-
 import cucumber.api.java.en.And;
-import cucumber.api.java.en.Given;
 import wdMethods.ProjectMethods;
 
 public class LoginPage extends ProjectMethods{
@@ -22,7 +18,7 @@ public class LoginPage extends ProjectMethods{
 	@FindBy(how=How.ID,using="username")
 	private WebElement eleUserName;
 	
-	@Given("enter the username as (.*)")
+	//@Given("enter the username as (.*)")
 	public LoginPage enterUserName(String data) {
 		type(eleUserName, data);
 		return this;

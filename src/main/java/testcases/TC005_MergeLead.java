@@ -3,7 +3,6 @@ package testcases;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import pages.FindLeadsPageForMergeLead;
 import pages.LoginPage;
 import wdMethods.ProjectMethods;
 

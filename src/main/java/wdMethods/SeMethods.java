@@ -202,7 +202,8 @@ public class SeMethods extends Reporter implements WdMethods{
 		} 
 
 	}
-
+	
+	
 	public boolean verifyTitle(String title) {
 		boolean bReturn =false;
 		try {
@@ -310,6 +311,7 @@ public class SeMethods extends Reporter implements WdMethods{
 	public void switchToFrame(WebElement ele) {
 		try {
 			driver.switchTo().frame(ele);
+			
 			reportStep("switch In to the Frame "+ele,"PASS");
 		} catch (NoSuchFrameException e) {
 			reportStep("WebDriverException : "+e.getMessage(), "FAIL");
